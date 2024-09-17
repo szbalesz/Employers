@@ -12,6 +12,11 @@ namespace Employers
         static void Main(string[] args)
         {
             string[] fajl = File.ReadAllLines("tulajdonsagok_100sor.txt");
+            List<dolgozo> dolgozok = new List<dolgozo>(); 
+            foreach (string sor in fajl)
+            {
+                dolgozok.Add(new dolgozo(sor));
+            }
         }
     }
 }
