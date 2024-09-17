@@ -51,7 +51,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
     <Content Include="tulajdonsagok_100sor.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
