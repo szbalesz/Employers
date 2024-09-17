@@ -18,11 +18,10 @@ namespace Employers
             {
                 dolgozok.Add(new dolgozo(sor));
             }
-
-            Console.WriteLine("Dolgozók:");
+            Console.WriteLine("Az összes dolgozó neve:");
             foreach (var d in dolgozok)
             {
-                Console.WriteLine(d.nev);
+                Console.Write($"{d.nev}, ");
             }
             int legjobbIndex = 0;
             for (int i = 0; i < dolgozok.Count; i++)
@@ -32,9 +31,10 @@ namespace Employers
                     legjobbIndex = i;
                 }
             }
-
-            Console.WriteLine($"Legjobban keres: {dolgozok[legjobbIndex].nev} Azonosító: {dolgozok[legjobbIndex].azonosito}");
-
+            Console.WriteLine("");
+            Console.WriteLine($"\nLegjobban keres: ID:{dolgozok[legjobbIndex].azonosito} Név:{dolgozok[legjobbIndex].nev}");
+            Console.WriteLine();
+            Console.WriteLine("10 év múlva nyugdíjas:");
             foreach (var d in dolgozok)
             {
                 if (d.kor == 65 - 10)
