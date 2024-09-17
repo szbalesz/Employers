@@ -22,6 +22,17 @@ namespace Employers
             {
                 Console.WriteLine(d.nev);
             }
+            int legjobbIndex = 0;
+            for (int i = 0; i < dolgozok.Count; i++)
+            {
+                if (dolgozok[i].kereset > dolgozok[legjobbIndex].kereset)
+                {
+                    legjobbIndex = i;
+                }
+            }
+            Console.WriteLine("Legjobban keres: "+dolgozok[legjobbIndex].nev);
+            
+
             Console.ReadLine();
         }
     }
