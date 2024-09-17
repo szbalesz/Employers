@@ -30,7 +30,7 @@ namespace Employers
                     legjobbIndex = i;
                 }
             }
-            Console.WriteLine($"Legjobban keres: {dolgozok[legjobbIndex].nev} Azonosító {dolgozok[legjobbIndex].azonosito}");
+            Console.WriteLine($"Legjobban keres: {dolgozok[legjobbIndex].nev} Azonosító: {dolgozok[legjobbIndex].azonosito}");
 
             foreach (var d in dolgozok)
             {
@@ -39,6 +39,16 @@ namespace Employers
                     Console.WriteLine($"{d.nev} {d.kor}");
                 }
             }
+            int db = 0;
+
+            foreach (var d in dolgozok)
+            {
+                if (d.kereset > 50000)
+                {
+                    db++;
+                }
+            }
+            Console.WriteLine($"{db}-en keresnek többet mint 50 000!");
             Console.ReadLine();
         }
     }
