@@ -30,9 +30,15 @@ namespace Employers
                     legjobbIndex = i;
                 }
             }
-            Console.WriteLine("Legjobban keres: "+dolgozok[legjobbIndex].nev);
-            
+            Console.WriteLine($"Legjobban keres: {dolgozok[legjobbIndex].nev} Azonosító {dolgozok[legjobbIndex].azonosito}");
 
+            foreach (var d in dolgozok)
+            {
+                if (d.kor == 65 - 10)
+                {
+                    Console.WriteLine($"{d.nev} {d.kor}");
+                }
+            }
             Console.ReadLine();
         }
     }
