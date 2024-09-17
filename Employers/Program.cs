@@ -17,6 +17,7 @@ namespace Employers
             {
                 dolgozok.Add(new dolgozo(sor));
             }
+
             Console.WriteLine("Dolgozók:");
             foreach (var d in dolgozok)
             {
@@ -30,6 +31,7 @@ namespace Employers
                     legjobbIndex = i;
                 }
             }
+
             Console.WriteLine($"Legjobban keres: {dolgozok[legjobbIndex].nev} Azonosító: {dolgozok[legjobbIndex].azonosito}");
 
             foreach (var d in dolgozok)
