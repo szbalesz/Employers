@@ -17,6 +17,12 @@ namespace Employers
             {
                 dolgozok.Add(new dolgozo(sor));
             }
+            Console.WriteLine("Dolgozók:");
+            foreach (var d in dolgozok)
+            {
+                Console.WriteLine(d.nev);
+            }
+            Console.ReadLine();
         }
     }
 }

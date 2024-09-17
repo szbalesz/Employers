@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{347AD072-8856-457A-9A4F-A68D3CE93FAD}|Employers\\Employers.csproj|c:\\users\\tanulo\\git\\employers\\employers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{347AD072-8856-457A-9A4F-A68D3CE93FAD}|Employers\\Employers.csproj|solutionrelative:employers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347AD072-8856-457A-9A4F-A68D3CE93FAD}|Employers\\Employers.csproj|C:\\Users\\Tanulo\\Git\\Employers\\employers\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347AD072-8856-457A-9A4F-A68D3CE93FAD}|Employers\\Employers.csproj|solutionrelative:employers\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dolgozo.cs",
+              "DocumentMoniker": "C:\\Users\\Tanulo\\Git\\Employers\\Employers\\dolgozo.cs",
+              "RelativeDocumentMoniker": "Employers\\dolgozo.cs",
+              "ToolTip": "C:\\Users\\Tanulo\\Git\\Employers\\Employers\\dolgozo.cs",
+              "RelativeToolTip": "Employers\\dolgozo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:43:07.214Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Employers\\Program.cs",
               "ToolTip": "C:\\Users\\Tanulo\\Git\\Employers\\Employers\\Program.cs",
               "RelativeToolTip": "Employers\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T08:23:46.432Z",
               "EditorCaption": ""
